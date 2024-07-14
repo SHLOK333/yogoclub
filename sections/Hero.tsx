@@ -48,6 +48,12 @@ export default function HeroFlats({
               ? PLACEMENT[placement]
               : "flex-col items-center justify-center text-center"
           } lg:py-36 gap-12 md:gap-20 items-center`}
+          style={{
+            backgroundImage: 'url("https://cdn.dribbble.com/users/130603/screenshots/3090179/prud_x2_800x600.gif")',
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat"
+          }}
         >
           {image && (
             <Image

@@ -3,36 +3,122 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/403853d3-4d16-4256-a8f7-91e6df8defdd",
+        "alt": "Chims"
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
+      "title": "<p>Yoga serenity club</p>",
       "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "description": "Serenity Yoga Studio is your sanctuary for inner peace and mindful movement. We offer a haven where you can cultivate strength, flexibility, and a deep sense of well-being through the transformative practice of yoga. Whether you're a seasoned yogi seeking to refine your practice or a curious beginner looking to explore the benefits of yoga for the first time, our doors are open to all"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/09dfc37b-38d5-4fbc-9233-d2e773b4a272"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/1d0c8829-d5de-4a4f-afab-0c63589016c2"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/fb3d65ba-6a3c-40f2-8e63-51bd0033effb"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/cee24dab-54f0-4241-a429-e73f208607e7"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/5398d4c9-fe83-4dae-9664-61777248d2d6"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/0972cd9e-9c51-49de-81c2-1e4288aeb5d9"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/a569f604-c5f6-493b-a0a0-afb89a3aaf55"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/0c2fecaa-3073-42f4-a37c-7bb26c4e544c"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "placement": "right",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/b52d850d-8c5c-4b1d-a645-ec94bdfa8767",
+      "title": "Help your mind get in control",
+      "description": "This personalized approach ensures that each student receives the maximum benefit from their practice, whether it's improving flexibility, building strength, or enhancing mental clarity. Unlike generic classes, personalized plans cater to your unique body and goals, leading to more effective and satisfying results"
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
+      "arrows": true,
+      "title": "Some of Our BLOGS from THE club",
+      "slides": [
+        {
+          "content": {
+            "description": "When I first walked into Serenity Yoga Studio, I was overwhelmed with stress and anxiety. The peaceful atmosphere and the warm welcome I received immediately put me at ease. The personalized yoga plan tailored to my needs has been a game-changer. I've gained flexibility, strength, and most importantly, a sense of calm that I never thought possible",
+            "avatar": "https://www.sydney.edu.au/content/dam/corporate/images/news-and-opinion/news/2017/june/Yoga_class.jpg",
+            "name": "James Arthur "
+          }
+        },
+        {
+          "content": {
+            "avatar": "https://www.simplemost.com/wp-content/uploads/2015/10/Yoga.jpg",
+            "name": "MARK Ram",
+            "description": "For Mark, sustainability and community are essential. Serenity Yoga Studio's commitment to eco-friendly practices and a supportive environment resonated deeply with him. In this blog, Mark shares his experience and the positive impact it had on his life."
+          }
+        },
+        {
+          "content": {
+            "description": "Before I started yoga at Serenity Yoga Studio, I was constantly stressed and disconnected from myself. The mindfulness techniques integrated into the yoga sessions have been life-changing. I've learned to breathe deeply, stay present, and let go of tension. The instructors are incredibly supportive and create a nurturing environment",
+            "avatar": "https://wallpapercave.com/wp/wp4656854.jpg",
+            "name": "Emma Stone"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "Frequently Asked questions ",
+      "description": "FAQ'S",
+      "questions": [
+        {
+          "answer": "<p>At Serenity Yoga Studio, we offer a variety of yoga classes to suit all levels and preferences. Our classes include Hatha Yoga, Vinyasa Flow, Yin Yoga, Restorative Yoga, and more. Whether you’re a beginner or an experienced practitioner, we have classes designed to meet your needs.</p>",
+          "title": "What types of yoga classes do you offer?"
+        },
+        {
+          "title": "Do I need to bring my own yoga mat and props?",
+          "answer": "<p>While you are welcome to bring your own yoga mat and props, Serenity Yoga Studio provides high-quality, eco-friendly mats and props for all students to use. If you prefer to bring your own equipment, that's perfectly fine too.</p>"
+        },
+        {
+          "title": "How do personalized yoga plans work?",
+          "answer": "<p>Personalized yoga plans at Serenity Yoga Studio are tailored to your specific needs, goals, and fitness levels. Our experienced instructors will work with you to design a custom routine that addresses your unique requirements. These plans are regularly updated to reflect your progress and evolving goals.</p>"
+        },
+        {
+          "title": "What should I wear to a yoga class?",
+          "answer": "<p>We recommend wearing comfortable, breathable clothing that allows for a full range of movement. Yoga is typically practiced barefoot, so no special footwear is required. It's important to feel comfortable and unrestricted during your practice.</p>"
+        },
+        {
+          "title": "How can I join the Serenity Yoga Studio community and participate in events?",
+          "answer": "<p>Joining our community is easy! Simply sign up for any of our classes or membership options. Once you're a member, you'll receive updates on upcoming events, workshops, and social gatherings. We encourage all members to participate and connect with fellow practitioners.</p>"
+        }
+      ]
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {},
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11483/7cd6c1a7-cb79-4e7b-bca1-286224da27bc"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
